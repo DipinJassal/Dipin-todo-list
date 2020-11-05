@@ -11,7 +11,7 @@ body{
     background-size: cover;
     background-position: center;
     color: white;
-    font-family: 'itin',cursive;
+    font-family: 'itim',cursive;
     min-height: 100vh;
 }
 
@@ -29,7 +29,7 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'itin',cursive;
+    font-family: 'itim',cursive;
 
 }
 
@@ -40,7 +40,7 @@ form input,form button{
     background: white;
     text-decoration: none;
     outline: none;
-    font-family: 'itin',cursive;
+    font-family: 'itim',cursive;
     
 }
 
@@ -83,6 +83,7 @@ form button:hover{
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
+    font-family: 'itim',cursive;
 }
 
 .todo li{
