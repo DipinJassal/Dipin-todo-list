@@ -14,9 +14,16 @@ function addTodo(e) {
     e.preventDefault();
 
     //todo DIV
+    
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");
     
+
+    if(todoInput.value.length == 0){
+        alert("Please enter an item!")
+        return;
+    }
+
 
     //create LI
     const newTodo = document.createElement('li');
