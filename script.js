@@ -18,10 +18,10 @@ function addTodo(e) {
     todoDiv.classList.add("todo");
 
     
-    if(todoInput.value.length == 0){   //This will return an alert if the input is empty.
-        alert("Please enter an item!")
-        return;
-    }    
+    //if(todoInput.value.length == 0){   //This will return an alert if the input is empty.
+    //    alert("Please enter an item!")
+   //     return;
+   // }    
     
     if(todoInput.value == 0){
         alert("Please enter an item!")
