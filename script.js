@@ -23,7 +23,7 @@ function addTodo(e) {
         return;
     }    
     
-    if(input.value == 0){
+    if(todoInput.value == 0){
         alert("Please enter an item!")
         return;
     }
