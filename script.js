@@ -16,7 +16,12 @@ function addTodo(e) {
     //todo DIV
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");
+
     
+    if(todoInput.value.length == 0){   //This will return an alert if the input is empty.
+        alert("Please enter an item!")
+        return;
+    }    
 
     //create LI
     const newTodo = document.createElement('li');
